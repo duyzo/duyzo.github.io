@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+h1 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: red;
+    background: url(./img/anh-nen-asus-gaming-4k_447967-720x1280.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 300px;
+    font-size: 50px;
+    background-color: rgb(40, 245, 245, 0.3);
+}
+
+.head_title { 
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    float: left;
+    height: 50px;
+
+}
+#link {
+    background-color: aquamarine;
+    display: block;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    
+}
+#lefte {
+    float: right;
+    padding-left: 4%;
+}
+#link a {
+    color: rgb(199, 141, 15);
+    text-decoration: none;
+    font-size: 20px;
+}
+.head_title:hover {
+    background-color: rgb(37, 178, 93);
+    color:aliceblue
+}
+#link a:hover {
+    color:white
+}
+
+#content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+#content img{
+    width: 90%;
+}
+p {
+    font-size: 20px;
+    margin: 10px;
+}
+#left img {
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+#left {
+    flex: 30%;
+    background-color: rgb(213, 138, 138);
+}
+#right {
+    flex: 70%;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color:crimson ;
+    font-size: 30px;
+    padding: 10px;
+    background-color: yellow;
+}
+#box_top {
+    display: flex;
+}
+#box_top img{
+    margin-top: 20px;
+    flex: 50%;
+}
+#box_bottom {
+    display: flex;
+}
+#box_bottom img{
+    margin-top: 20px;
+    flex: 50%;
+}
+
+#next {
+    text-align: center;
+    font-size: 20px;
+}
+#next img {
+    width: 90%;
+    margin: 15px;
+}
+#next_top {
+    display: flex;
+}
+#T1 {
+    flex: 50%;
+}
+#T2 {
+    flex: 50%;
+}
+#next_bottom {
+    display: flex;
+}
+#B1 {
+    flex: 50%;
+}
+#B2 {
+    flex: 50%;
+}
+#end {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: blue;
+    padding: 20px;
+}
+#end a {
+    color:white;
+    text-decoration: none;
+
+}
+@media(max-width:800px) {
+    #content{
+        flex-wrap: wrap;
+    }
+    #left {
+        flex:100%
+    }
+    #right {
+        flex:100%
+    }
+}

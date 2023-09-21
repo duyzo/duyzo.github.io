@@ -131,6 +131,12 @@ h2 {
 
 }
 @media(max-width:800px) {
+    .head_title { 
+        font-size:15px;
+    }
+    #lefte {
+        font-size:15px;
+    }
     #content{
         flex-wrap: wrap;
     }

@@ -131,12 +131,11 @@ h2 {
 
 }
 @media(max-width:800px) {
-    .head_title { 
-        font-size:10px;
+    #aa a{ 
+        font-size: 18px;
     }
-    #lefte {
-        font-size:10px;
-    }
+    #lefte a{
+        font-size: 18px;
     #content{
         flex-wrap: wrap;
     }
